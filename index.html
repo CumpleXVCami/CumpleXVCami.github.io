@@ -9,12 +9,6 @@
 </head>
 
 <body>
-    <audio id="audio" autoplay loop>
-        <source src="./assets/cancion.mp3" type="audio/mp3">
-    </audio>
-    <button id="muteButton">🔊</button>
-    <span class="linea"></span>
-    
     <main id="hero">
         <h1 class="titulo">Cumple X&nbspV&nbsp Cami</h1>
         <img src="./assets/imagen.JPG" alt="-" class="imagen-central">
@@ -65,16 +59,7 @@
     </main>
     
     <script src="https://kit.fontawesome.com/4aa8f871bb.js" crossorigin="anonymous"></script>
-    <script src="cuenta.js"></script>
-    <script>
-        const audio = document.getElementById("audio");
-        const muteButton = document.getElementById("muteButton");
-
-        muteButton.addEventListener("click", () => {
-            audio.muted = !audio.muted;
-            muteButton.textContent = audio.muted ? "🔇" : "🔊";
-        });
-    </script>  
+    <script src="cuenta.js"></script> 
 </body>
 
 </html>

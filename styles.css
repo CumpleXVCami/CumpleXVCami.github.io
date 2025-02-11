@@ -20,10 +20,6 @@ body{
   
 }
 
-audio {
-  display: none; /* Oculta la barra de audio */
-}
-
 .imagen-central {
   width: 100%;
   max-width: 400px; /* Tamaño máximo de la imagen */
@@ -96,13 +92,6 @@ body {
   background: #DFCBB0;
   font-family: 'FuentePropia', cursive;
  }
-
-.linea {
-  background: #DFCBB0;
-  height: 4px;
-  width: 100%;
-  display: block; }
-
 #hero {
   padding: 0px 10px;
   min-height: 100vh;
@@ -265,6 +254,11 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+
+    .titulo {
+      padding-top: 40px;
+    }
+
   .cuenta {
       flex-wrap: wrap;
       gap: 15px;
